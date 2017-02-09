@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Feed>
   <Tasks>
-    <!--<FileUpdateTask hotswap="false" updateTo="file:///c:/test/htmlayout.dll" localPath="htmlayout.dll">
+    <FileUpdateTask hotswap="false" updateTo="file:///c:/test/htmlayout.dll" localPath="htmlayout.dll">
       <Description>Fixes several bugs with the display</Description>
       <Conditions>
         <FileVersionCondition what="below" version="3.3.2.10" />
@@ -18,7 +18,7 @@
         <FileSizeCondition type="and-not" what="below" size="1000" />
         <FileExistsCondition type="or" />
       </Conditions>
-    </FileUpdateTask>-->
+    </FileUpdateTask>
     <FileUpdateTask hotswap="true" localPath="logo.png" updateTo="http://www.google.com/intl/en_ALL/images/srpr/logo1w.png" />
   </Tasks>
 </Feed>
